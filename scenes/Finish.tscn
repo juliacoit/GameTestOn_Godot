@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhc1mybcj6deo"]
+
+[ext_resource type="Script" path="res://scenes/finish.gd" id="1_11fi0"]
+[ext_resource type="Texture2D" uid="uid://bqa1tnrpc4eiq" path="res://Gray.png" id="2_rhk48"]
+[ext_resource type="Texture2D" uid="uid://c30en57veif7c" path="res://Cool Text - CONGRATS 451640901303288.png" id="3_pv0iy"]
+
+[node name="Finish" type="Node"]
+script = ExtResource("1_11fi0")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+offset_right = 1151.0
+offset_bottom = 649.0
+texture = ExtResource("2_rhk48")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -501.5
+offset_top = -118.0
+offset_right = 501.5
+offset_bottom = 118.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_pv0iy")
